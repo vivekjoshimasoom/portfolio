@@ -241,10 +241,12 @@ header nav .nav-links a.active{
     position: relative;
     background-color: var(--main-color);
     padding: 5.2rem 0;
+    justify-content: center;
   }
   
   .records .container {
-    display: grid;
+    justify-content: center;
+    display: flex                                                   ;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
@@ -254,6 +256,7 @@ header nav .nav-links a.active{
   }
   
   .record-circle {
+    justify-content: center;
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -320,7 +323,7 @@ header nav .nav-links a.active{
   .records .half-circle {
     top: 30px;
     right: 50%;
-  } 
+  }  
 
 /*end records */
 
